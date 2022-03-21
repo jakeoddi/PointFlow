@@ -7,6 +7,7 @@ from numpy.linalg import norm
 
 # Import CUDA version of approximate EMD, from https://github.com/zekunhao1995/pcgan-pytorch/
 from .StructuralLosses.match_cost import match_cost
+# from .pytorch_structural_losses.match_cost import match_cost
 from .StructuralLosses.nn_distance import nn_distance
 
 
